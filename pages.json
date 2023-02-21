@@ -1,0 +1,114 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智数学院自习室"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/info/info",
+			"style": {
+				"navigationBarTitleText": "信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "test",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/TRDetail/TRDetail",
+			"style": {
+				"navigationBarTitleText": "今日预约详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/LFDetail/LFDetail",
+			"style": {
+				"navigationBarTitleText": "失物招领详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/NDetail/NDetail",
+			"style": {
+				"navigationBarTitleText": "通知详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/DIDetail/DIDetail",
+			"style": {
+				"navigationBarTitleText": "值班信息详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/RIDetail/RIDetail",
+			"style": {
+				"navigationBarTitleText": "自习室详情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83", // tab 上的文字默认颜色
+		"selectedColor": "#3cc51f", // tab 上的文字选中时的颜色
+		"borderStyle": "black", // tabbar 上边框的颜色，可选值 black/white
+		"backgroundColor": "#ffffff", // tab 的背景色
+		"list": [{
+				"pagePath": "pages/main/main",
+				"iconPath": "static/tabbar/bar.png",
+				"selectedIconPath": "static/tabbar/bar-active.png",
+				"text": "个人主页"
+			}, {
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/bar.png",
+				"selectedIconPath": "static/tabbar/bar-active.png",
+				"text": "首页"
+			}
+			// , {
+			// 	"pagePath": "pages/test/test",
+			// 	"iconPath": "static/tabbar/bar.png",
+			// 	"selectedIconPath": "static/tabbar/bar-active.png",
+			// 	"text": "TEST"
+			// },
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"bounce": "none"
+		},
+		"onReachBottomDistance": 150 //距离底部150上划有效
+	}
+}

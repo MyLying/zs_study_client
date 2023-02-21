@@ -1,0 +1,10 @@
+.content {
+  font-size: 36rpx;
+}
+.content .view_Card .card {
+  height: 320rpx;
+}
+.content .view_Test {
+  text-align: center;
+}
+

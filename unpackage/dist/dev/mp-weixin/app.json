@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/info/info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 150
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/bar.png",
+        "selectedIconPath": "static/tabbar/bar-active.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "static/tabbar/bar.png",
+        "selectedIconPath": "static/tabbar/bar-active.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/bar.png",
+        "selectedIconPath": "static/tabbar/bar-active.png",
+        "text": "首页"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

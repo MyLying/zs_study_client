@@ -1,0 +1,26 @@
+.content {
+  font-size: 36rpx;
+}
+.content .view_AvatarImg {
+  height: 160px;
+}
+.content .view_AvatarImg .avatarimg {
+  width: 40%;
+  height: 100%;
+  margin-left: 30%;
+}
+.content .view_InfoList .infolist {
+  text-align: center;
+  font-size: 36rpx;
+}
+.content .view_Test {
+  text-align: center;
+}
+.content .view_Test .showQR {
+  width: 400rpx;
+  height: 400rpx;
+  background-color: aqua;
+  text-align: center;
+  line-height: 400rpx;
+}
+

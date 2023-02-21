@@ -1,0 +1,28 @@
+.content {
+  font-size: 36rpx;
+}
+.content .view_Career .cardOne .showQR_Btn {
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border-radius: 80rpx;
+  background-color: aqua;
+}
+.content .view_Career .cardOne .showQR {
+  width: 400rpx;
+  height: 400rpx;
+  background-color: aqua;
+  text-align: center;
+  line-height: 400rpx;
+}
+.content .view_Career .cardTwo .cardTwo_ZXT {
+  position: relative;
+  width: 14.28%;
+  float: right;
+  text-align: center;
+}
+.content .view_Test {
+  text-align: center;
+}
+
